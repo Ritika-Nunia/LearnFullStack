@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome!!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9; /* Light grey background */
+            position: relative; /* For positioning the title */
+        }
+
+        #Box {
+            width: 300px;
+            padding: 20px;
+            background-color: #ffffff; /* White background for the box */
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+            text-align: center;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            background-color: #6C63FF; /* Soft purple button color */
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #5a54e5; /* Slightly darker purple on hover */
+        }
+
+        /* Title at the top-right */
+        #title {
+            position: absolute;
+            top: 130px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #6C63FF; /* Matching title color with buttons */
+        }
+    </style>
+</head>
+<body>
+    <!-- Title at the top-right -->
+    <div id="title">Welcome to Our Site</div>
+    
+    <div id="Box">
+        <button id="SignUp">Sign Up</button>
+        <button id="Login">Login</button>
+    </div>
+</body>
+</html>
