@@ -12,16 +12,16 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f4f4f9; /* Light grey background */
-            position: relative; /* For positioning the title */
+            background-color: #f4f4f9; 
+            position: relative; 
         }
 
         #Box {
             width: 300px;
             padding: 20px;
-            background-color: #ffffff; /* White background for the box */
+            background-color: #ffffff; 
             border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
             text-align: center;
         }
 
@@ -29,7 +29,7 @@
             width: 100%;
             padding: 15px;
             margin: 10px 0;
-            background-color: #6C63FF; /* Soft purple button color */
+            background-color: #6C63FF; 
             color: white;
             border: none;
             border-radius: 8px;
@@ -38,26 +38,28 @@
         }
 
         button:hover {
-            background-color: #5a54e5; /* Slightly darker purple on hover */
+            background-color: #5a54e5; 
         }
 
-        /* Title at the top-right */
+        
         #title {
             position: absolute;
             top: 130px;
             font-size: 24px;
             font-weight: bold;
-            color: #6C63FF; /* Matching title color with buttons */
+            color: #6C63FF; 
         }
     </style>
 </head>
 <body>
-    <!-- Title at the top-right -->
+    
     <div id="title">Welcome to Our Site</div>
     
     <div id="Box">
-        <button id="SignUp">Sign Up</button>
-        <button id="Login">Login</button>
+        <a href = "http://127.0.0.1:5500/LearnFullStack/frontend/signup.html">
+        <button id="SignUp">Sign Up</button></a>
+        <a href = "http://127.0.0.1:5500/LearnFullStack/frontend/login.html">
+        <button id="Login">Login</button></a>
     </div>
 </body>
 </html>
